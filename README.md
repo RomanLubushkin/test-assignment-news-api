@@ -1,3 +1,11 @@
+### Description
+Simple news viewer using newsapi.org API.
+
+### Stack
+ - React
+ - MobX
+ - Typescript
+
 ### To start the project for development
 ```
 yarn install
