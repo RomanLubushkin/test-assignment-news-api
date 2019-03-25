@@ -1,0 +1,59 @@
+* {
+  outline: none !important;
+}
+
+.page-container {
+  padding-top: 2rem;
+}
+
+.page-title {
+  border-bottom: 1px solid;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(white, 0.7);
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.list-group-item {
+  text-align: left;
+  border: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.countries-list-link:hover,
+.categories-list-link:hover {
+  text-decoration: none;
+}
+
+.countries-list-link:focus,
+.categories-list-link:focus {
+  outline: none;
+}
+
+.news-page img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.list-group-item.active {
+  transition: background-color linear 0.5s;
+}
